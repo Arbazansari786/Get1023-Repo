@@ -17,5 +17,7 @@ public interface StudentDao {
 	void addNewCourse(Course course);
 	List<Course> viewAllCourses();
 	Course findCourseById(int courseId);
+	
 }
+
 
